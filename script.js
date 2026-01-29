@@ -309,4 +309,4 @@ document.addEventListener('keydown', function(event) {
         clear();
         return;
     }
-});
+})
