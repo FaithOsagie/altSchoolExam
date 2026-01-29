@@ -5,7 +5,6 @@
     font-family: "Inter", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 23px;
 }
 
 body {
@@ -21,6 +20,7 @@ body {
     margin: auto;
     width: 400px;
     height: auto;
+    max-width: 100%;
     padding: 20px;
     background-color: #242530;
     justify-items: center;
@@ -54,10 +54,12 @@ button {
     background-color: #404258;
     width: 60px;
     height: 45px;
-    border-radius: 45px;
+    border-radius: 999px;
+    border: none;
     color: #FFFFFF;
     box-shadow: none;
-    transition: background-color, 0.3s;
+    transition: background-color 0.3s;
+    font-size: 23px;
 }
 
 button:hover {
@@ -79,4 +81,45 @@ button:hover {
 .equal-operator {
     background-color: #a6a6a6;
     color: black;
+}
+
+/* ---------------------------
+   Responsive (Mobile)
+---------------------------- */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .calculator {
+    padding: 14px;
+  }
+
+  .display {
+    height: 60px;
+    padding: 14px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  button {
+    height: 46px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 360px) {
+  .display {
+    font-size: 22px;
+  }
+
+  button {
+    height: 42px;
+    font-size: 16px;
+  }
 }
