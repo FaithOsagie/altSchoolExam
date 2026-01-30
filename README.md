@@ -47,7 +47,7 @@ calculator-app/
 
 1. Clone this repository:
    ```bash
-   git clone [your-repo-link]
+   git clone https://github.com/FaithOsagie/altSchoolExam
    ```
 
 2. Navigate to the project folder:
@@ -80,14 +80,14 @@ No additional dependencies or build process required!
 ## 📊 Assessment Criteria
 
 |             Category             | Points | 
-|----------|--------|--------------|
-| HTML Structure & Semantics       | 6 |
-| CSS Styling & Responsiveness     | 6 |
-| JavaScript Logic & Functionality | 6 |
-| UI Design                        | 6 |
-| Code Readability & Comments      | 3 |
-| Bonus Features                   | 3 |
-| **Total**                        |**30**|
+|----------------------------------|--------|
+| HTML Structure & Semantics       | 6      |
+| CSS Styling & Responsiveness     | 6      |
+| JavaScript Logic & Functionality | 6      |
+| UI Design                        | 6      |
+| Code Readability & Comments      | 3      |
+| Bonus Features                   | 3      |
+| **Total**                        |**30**  |
 
 ## 🎯 Key Implementation Details
 
