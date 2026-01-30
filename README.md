@@ -137,8 +137,8 @@ No additional dependencies or build process required!
 
 ## 🔗 Links
 
-- [Live Demo](https://github.com/FaithOsagie/altSchoolExam) 
-- [GitHub Repository](https://faithosagie.github.io/altSchoolExam/))
+- [Live Demo](https://faithosagie.github.io/altSchoolExam/)
+- [GitHub Repository](https://github.com/FaithOsagie/altSchoolExam)
 - [Figma Design](https://www.figma.com/design/7sm61eN76smT5GPfy4K4TZ/Calculator-for-Desktop–Community-?node-id=0-1&t=eFvPziYibe3spHwv-1)
 
 
