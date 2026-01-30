@@ -190,8 +190,11 @@ function calculate() {
             break;
         case '÷':
             if (current === 0) {
-                alert('Cannot divide by zero');
-                clear();
+                display.textContent = 'Error';
+                currentInput = '';
+                previousInput = '';
+                operator = null;
+                shouldResetDisplay = true;   
                 return;
             }
             result = prev / current;
